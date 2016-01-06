@@ -1,0 +1,83 @@
+html{
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+}
+
+.header{
+  width: 100%;
+  position: relative;
+  text-align: center;
+  padding:150px 0px;
+  background: url("http://static1.squarespace.com/static/54b6c562e4b07f864ebe69cd/t/557795fee4b0f3b4bae07295/1433900543867/New-York-City-Skyline-BLURRY.jpg?format=1500w");
+
+background-repeat:no-repeat;
+background-position: center center;
+}
+
+.header h1{
+  color:white;
+}
+
+.header p{
+    color:white;
+}
+
+.searh_bar
+{
+  position: absolute;
+  padding: 20px 30%;
+  width: 100%;
+  bottom:0px;
+  left:0px;
+  background-color: rgba(0,0,0,0.5);
+}
+
+#map_area{
+    width: 100%;
+    position: relative;
+}
+
+#map{
+  width: 100%;
+  padding:50px 0px;
+}
+
+.market_list_content{
+  position: relative;
+  overflow:hidden;
+
+}
+
+.market_list
+{
+  width: 100%;
+  padding: 50px 100px;
+
+  background-color: #ecf0f1;
+}
+
+.market_list h1{
+
+  border-bottom: 1px solid gray;
+  padding:10px 0px;
+}
+
+.market_list_item
+{
+  width: 25%;
+  margin:0px 20px;
+  float:left;
+}
+
+.market_list_item p{
+  color:#95a5a6;
+  font-size: 13px;
+}
